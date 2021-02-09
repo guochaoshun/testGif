@@ -34,16 +34,18 @@
     // 测试设备,iPhone 6s,iOS12.1,模拟器测试不准,YYImage在模拟器上0%,但是在真机上是30%左右
 
     // FLAnimatedImageView展示,CADisplayLink展示帧图,CPU30%,内存17M
-//    [self testGifImage];
+    [self testGifImage];
     // UIWebView展示,凑数的,不能上架了,CPU在9%, 30%两个值进行锯齿状波动, 内存占用较大40M
 //    [self testGifImage2];
     // WKWebView, CPU占用极地1%-2%, 内存占用极地,15M,但是比较复杂,引入了一个HTML文件,而且H5改图片填充模式费事
 //    [self testGifImage3];
     // YYImage完美解决方案, CPU占用极地0%, 内存占用极低,13.4M
-    [self testGifImage4];
+//    [self testGifImage4];
     // SDImage加载,cpu占用很低0%,内存占用较大72M
 //    [self testGifImage5];
 
+    // 系统[UIImage animatedImageWithImages:]加载
+//    [self testGifImage6];
 
 }
 
@@ -142,13 +144,41 @@
     NSURL *url = [NSURL URLWithString:@"http://res.hongrenshuo.com.cn/66532a15-c726-4edf-bb4f-0b8897753f31.gif?t=1606124887942"];
     [imageView sd_setImageWithURL:url];
 
+    [UIImage animatedImageNamed:@"" duration:1];
+
     // 本地图
-    //    NSString * path = [[NSBundle mainBundle] pathForResource:@"直播间测试gif" ofType:@"gif"];
-    //    NSData * data = [NSData dataWithContentsOfFile:path];
-    //    UIImage *image = [UIImage sd_imageWithGIFData:data];
+        NSString * path = [[NSBundle mainBundle] pathForResource:@"直播间测试gif" ofType:@"gif"];
+        NSData * data = [NSData dataWithContentsOfFile:path];
+        UIImage *image = [UIImage sd_imageWithGIFData:data];
 //    imageView.image = image;
     [self.view addSubview:imageView];
     NSLog(@"SD加载image");
+
+}
+
+#pragma mark UIImage加载image
+- (void)testGifImage6 {
+
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:self.view.frame];
+    [self.view addSubview:imageView];
+
+    // 只能处理单个图片,而且单图1.2M,整个下载下来需要1.2*50=60M, 而生成的gif才2.1M
+    // 所以这种写法也就看看就行了
+    // CPU:0%, 内存:60M
+    NSMutableArray *array = [NSMutableArray array];
+    for (int i = 1; i<=50; i++) {
+        NSString *imageName = [NSString stringWithFormat:@"直播间测试gif-%@.tiff",@(i)];
+        UIImage *image = [UIImage imageNamed:imageName];
+        [array addObject:image];
+    }
+    // 方式1
+//    imageView.animationImages = array;
+//    imageView.animationDuration = 3;
+//    [imageView startAnimating];
+
+    // 方式2
+    imageView.image = [UIImage animatedImageWithImages:array duration:3];
+    NSLog(@"UIImage animatedImageWithImages动画加载");
 
 }
 

@@ -84,6 +84,58 @@
 		500E924E25D22B5000F8F767 /* SDDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 500E920625D22B5000F8F767 /* SDDisplayLink.m */; };
 		500E924F25D22B5000F8F767 /* SDAsyncBlockOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 500E920825D22B5000F8F767 /* SDAsyncBlockOperation.m */; };
 		500E925025D22B5000F8F767 /* SDAssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 500E920925D22B5000F8F767 /* SDAssociatedObject.m */; };
+		500E92F125D2B6E300F8F767 /* 直播间测试gif-21.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92BF25D2B6E300F8F767 /* 直播间测试gif-21.tiff */; };
+		500E92F225D2B6E300F8F767 /* 直播间测试gif-4.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92C025D2B6E300F8F767 /* 直播间测试gif-4.tiff */; };
+		500E92F325D2B6E300F8F767 /* 直播间测试gif-37.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92C125D2B6E300F8F767 /* 直播间测试gif-37.tiff */; };
+		500E92F425D2B6E300F8F767 /* 直播间测试gif-40.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92C225D2B6E300F8F767 /* 直播间测试gif-40.tiff */; };
+		500E92F525D2B6E300F8F767 /* 直播间测试gif-17.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92C325D2B6E300F8F767 /* 直播间测试gif-17.tiff */; };
+		500E92F625D2B6E300F8F767 /* 直播间测试gif-8.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92C425D2B6E300F8F767 /* 直播间测试gif-8.tiff */; };
+		500E92F725D2B6E300F8F767 /* 直播间测试gif-9.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92C525D2B6E300F8F767 /* 直播间测试gif-9.tiff */; };
+		500E92F825D2B6E300F8F767 /* 直播间测试gif-16.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92C625D2B6E300F8F767 /* 直播间测试gif-16.tiff */; };
+		500E92F925D2B6E300F8F767 /* 直播间测试gif-41.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92C725D2B6E300F8F767 /* 直播间测试gif-41.tiff */; };
+		500E92FA25D2B6E300F8F767 /* 直播间测试gif-36.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92C825D2B6E300F8F767 /* 直播间测试gif-36.tiff */; };
+		500E92FB25D2B6E300F8F767 /* 直播间测试gif-5.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92C925D2B6E300F8F767 /* 直播间测试gif-5.tiff */; };
+		500E92FC25D2B6E300F8F767 /* 直播间测试gif-20.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92CA25D2B6E300F8F767 /* 直播间测试gif-20.tiff */; };
+		500E92FD25D2B6E300F8F767 /* 直播间测试gif-46.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92CB25D2B6E300F8F767 /* 直播间测试gif-46.tiff */; };
+		500E92FE25D2B6E300F8F767 /* 直播间测试gif-11.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92CC25D2B6E300F8F767 /* 直播间测试gif-11.tiff */; };
+		500E92FF25D2B6E300F8F767 /* 直播间测试gif-50.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92CD25D2B6E300F8F767 /* 直播间测试gif-50.tiff */; };
+		500E930025D2B6E300F8F767 /* 直播间测试gif-27.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92CE25D2B6E300F8F767 /* 直播间测试gif-27.tiff */; };
+		500E930125D2B6E300F8F767 /* 直播间测试gif-2.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92CF25D2B6E300F8F767 /* 直播间测试gif-2.tiff */; };
+		500E930225D2B6E300F8F767 /* 直播间测试gif-31.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92D025D2B6E300F8F767 /* 直播间测试gif-31.tiff */; };
+		500E930325D2B6E300F8F767 /* 直播间测试gif-30.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92D125D2B6E300F8F767 /* 直播间测试gif-30.tiff */; };
+		500E930425D2B6E300F8F767 /* 直播间测试gif-3.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92D225D2B6E300F8F767 /* 直播间测试gif-3.tiff */; };
+		500E930525D2B6E300F8F767 /* 直播间测试gif-26.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92D325D2B6E300F8F767 /* 直播间测试gif-26.tiff */; };
+		500E930625D2B6E300F8F767 /* 直播间测试gif-10.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92D425D2B6E300F8F767 /* 直播间测试gif-10.tiff */; };
+		500E930725D2B6E300F8F767 /* 直播间测试gif-47.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92D525D2B6E300F8F767 /* 直播间测试gif-47.tiff */; };
+		500E930825D2B6E300F8F767 /* 直播间测试gif-29.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92D625D2B6E300F8F767 /* 直播间测试gif-29.tiff */; };
+		500E930925D2B6E300F8F767 /* 直播间测试gif-13.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92D725D2B6E300F8F767 /* 直播间测试gif-13.tiff */; };
+		500E930A25D2B6E300F8F767 /* 直播间测试gif-44.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92D825D2B6E300F8F767 /* 直播间测试gif-44.tiff */; };
+		500E930B25D2B6E300F8F767 /* 直播间测试gif-33.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92D925D2B6E300F8F767 /* 直播间测试gif-33.tiff */; };
+		500E930C25D2B6E300F8F767 /* 直播间测试gif-25.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92DA25D2B6E300F8F767 /* 直播间测试gif-25.tiff */; };
+		500E930D25D2B6E300F8F767 /* 直播间测试gif-48.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92DB25D2B6E300F8F767 /* 直播间测试gif-48.tiff */; };
+		500E930E25D2B6E300F8F767 /* 直播间测试gif-49.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92DC25D2B6E300F8F767 /* 直播间测试gif-49.tiff */; };
+		500E930F25D2B6E300F8F767 /* 直播间测试gif-24.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92DD25D2B6E300F8F767 /* 直播间测试gif-24.tiff */; };
+		500E931025D2B6E300F8F767 /* 直播间测试gif-1.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92DE25D2B6E300F8F767 /* 直播间测试gif-1.tiff */; };
+		500E931125D2B6E300F8F767 /* 直播间测试gif-32.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92DF25D2B6E300F8F767 /* 直播间测试gif-32.tiff */; };
+		500E931225D2B6E300F8F767 /* 直播间测试gif-45.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92E025D2B6E300F8F767 /* 直播间测试gif-45.tiff */; };
+		500E931325D2B6E300F8F767 /* 直播间测试gif-12.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92E125D2B6E300F8F767 /* 直播间测试gif-12.tiff */; };
+		500E931425D2B6E300F8F767 /* 直播间测试gif-28.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92E225D2B6E300F8F767 /* 直播间测试gif-28.tiff */; };
+		500E931525D2B6E300F8F767 /* 直播间测试gif-35.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92E325D2B6E300F8F767 /* 直播间测试gif-35.tiff */; };
+		500E931625D2B6E300F8F767 /* 直播间测试gif-6.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92E425D2B6E300F8F767 /* 直播间测试gif-6.tiff */; };
+		500E931725D2B6E300F8F767 /* 直播间测试gif-23.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92E525D2B6E300F8F767 /* 直播间测试gif-23.tiff */; };
+		500E931825D2B6E300F8F767 /* 直播间测试gif-19.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92E625D2B6E300F8F767 /* 直播间测试gif-19.tiff */; };
+		500E931925D2B6E300F8F767 /* 直播间测试gif-39.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92E725D2B6E300F8F767 /* 直播间测试gif-39.tiff */; };
+		500E931A25D2B6E300F8F767 /* 直播间测试gif-15.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92E825D2B6E300F8F767 /* 直播间测试gif-15.tiff */; };
+		500E931B25D2B6E300F8F767 /* 直播间测试gif-42.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92E925D2B6E300F8F767 /* 直播间测试gif-42.tiff */; };
+		500E931C25D2B6E300F8F767 /* 直播间测试gif-43.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92EA25D2B6E300F8F767 /* 直播间测试gif-43.tiff */; };
+		500E931D25D2B6E300F8F767 /* 直播间测试gif-14.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92EB25D2B6E300F8F767 /* 直播间测试gif-14.tiff */; };
+		500E931E25D2B6E300F8F767 /* 直播间测试gif-38.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92EC25D2B6E300F8F767 /* 直播间测试gif-38.tiff */; };
+		500E931F25D2B6E300F8F767 /* 直播间测试gif-18.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92ED25D2B6E300F8F767 /* 直播间测试gif-18.tiff */; };
+		500E932025D2B6E300F8F767 /* 直播间测试gif-22.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92EE25D2B6E300F8F767 /* 直播间测试gif-22.tiff */; };
+		500E932125D2B6E300F8F767 /* 直播间测试gif-7.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92EF25D2B6E300F8F767 /* 直播间测试gif-7.tiff */; };
+		500E932225D2B6E300F8F767 /* 直播间测试gif-34.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 500E92F025D2B6E300F8F767 /* 直播间测试gif-34.tiff */; };
+		500E933225D2C1A900F8F767 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 500E932D25D2C1A900F8F767 /* FLAnimatedImage.m */; };
+		500E933325D2C1A900F8F767 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 500E933125D2C1A900F8F767 /* FLAnimatedImageView.m */; };
 		5056864C25B04540009DDCBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5056864B25B04540009DDCBA /* AppDelegate.m */; };
 		5056865225B04540009DDCBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5056865125B04540009DDCBA /* ViewController.m */; };
 		5056865525B04540009DDCBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5056865325B04540009DDCBA /* Main.storyboard */; };
@@ -92,8 +144,6 @@
 		5056865D25B04542009DDCBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5056865C25B04542009DDCBA /* main.m */; };
 		5056866725B04543009DDCBA /* ShowGifTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5056866625B04543009DDCBA /* ShowGifTests.m */; };
 		5056867225B04543009DDCBA /* ShowGifUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5056867125B04543009DDCBA /* ShowGifUITests.m */; };
-		5056868725B0469E009DDCBA /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5056868325B0469E009DDCBA /* FLAnimatedImage.m */; };
-		5056868825B0469E009DDCBA /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5056868425B0469E009DDCBA /* FLAnimatedImageView.m */; };
 		5056869525B047EE009DDCBA /* 直播间测试gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5056869425B047ED009DDCBA /* 直播间测试gif.gif */; };
 		505686A925B06F25009DDCBA /* 直播间测试gif_small.gif in Resources */ = {isa = PBXBuildFile; fileRef = 505686A825B06F24009DDCBA /* 直播间测试gif_small.gif */; };
 /* End PBXBuildFile section */
@@ -271,6 +321,60 @@
 		500E920725D22B5000F8F767 /* SDImageAssetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageAssetManager.h; sourceTree = "<group>"; };
 		500E920825D22B5000F8F767 /* SDAsyncBlockOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDAsyncBlockOperation.m; sourceTree = "<group>"; };
 		500E920925D22B5000F8F767 /* SDAssociatedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDAssociatedObject.m; sourceTree = "<group>"; };
+		500E92BF25D2B6E300F8F767 /* 直播间测试gif-21.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-21.tiff"; sourceTree = "<group>"; };
+		500E92C025D2B6E300F8F767 /* 直播间测试gif-4.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-4.tiff"; sourceTree = "<group>"; };
+		500E92C125D2B6E300F8F767 /* 直播间测试gif-37.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-37.tiff"; sourceTree = "<group>"; };
+		500E92C225D2B6E300F8F767 /* 直播间测试gif-40.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-40.tiff"; sourceTree = "<group>"; };
+		500E92C325D2B6E300F8F767 /* 直播间测试gif-17.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-17.tiff"; sourceTree = "<group>"; };
+		500E92C425D2B6E300F8F767 /* 直播间测试gif-8.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-8.tiff"; sourceTree = "<group>"; };
+		500E92C525D2B6E300F8F767 /* 直播间测试gif-9.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-9.tiff"; sourceTree = "<group>"; };
+		500E92C625D2B6E300F8F767 /* 直播间测试gif-16.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-16.tiff"; sourceTree = "<group>"; };
+		500E92C725D2B6E300F8F767 /* 直播间测试gif-41.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-41.tiff"; sourceTree = "<group>"; };
+		500E92C825D2B6E300F8F767 /* 直播间测试gif-36.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-36.tiff"; sourceTree = "<group>"; };
+		500E92C925D2B6E300F8F767 /* 直播间测试gif-5.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-5.tiff"; sourceTree = "<group>"; };
+		500E92CA25D2B6E300F8F767 /* 直播间测试gif-20.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-20.tiff"; sourceTree = "<group>"; };
+		500E92CB25D2B6E300F8F767 /* 直播间测试gif-46.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-46.tiff"; sourceTree = "<group>"; };
+		500E92CC25D2B6E300F8F767 /* 直播间测试gif-11.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-11.tiff"; sourceTree = "<group>"; };
+		500E92CD25D2B6E300F8F767 /* 直播间测试gif-50.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-50.tiff"; sourceTree = "<group>"; };
+		500E92CE25D2B6E300F8F767 /* 直播间测试gif-27.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-27.tiff"; sourceTree = "<group>"; };
+		500E92CF25D2B6E300F8F767 /* 直播间测试gif-2.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-2.tiff"; sourceTree = "<group>"; };
+		500E92D025D2B6E300F8F767 /* 直播间测试gif-31.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-31.tiff"; sourceTree = "<group>"; };
+		500E92D125D2B6E300F8F767 /* 直播间测试gif-30.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-30.tiff"; sourceTree = "<group>"; };
+		500E92D225D2B6E300F8F767 /* 直播间测试gif-3.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-3.tiff"; sourceTree = "<group>"; };
+		500E92D325D2B6E300F8F767 /* 直播间测试gif-26.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-26.tiff"; sourceTree = "<group>"; };
+		500E92D425D2B6E300F8F767 /* 直播间测试gif-10.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-10.tiff"; sourceTree = "<group>"; };
+		500E92D525D2B6E300F8F767 /* 直播间测试gif-47.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-47.tiff"; sourceTree = "<group>"; };
+		500E92D625D2B6E300F8F767 /* 直播间测试gif-29.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-29.tiff"; sourceTree = "<group>"; };
+		500E92D725D2B6E300F8F767 /* 直播间测试gif-13.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-13.tiff"; sourceTree = "<group>"; };
+		500E92D825D2B6E300F8F767 /* 直播间测试gif-44.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-44.tiff"; sourceTree = "<group>"; };
+		500E92D925D2B6E300F8F767 /* 直播间测试gif-33.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-33.tiff"; sourceTree = "<group>"; };
+		500E92DA25D2B6E300F8F767 /* 直播间测试gif-25.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-25.tiff"; sourceTree = "<group>"; };
+		500E92DB25D2B6E300F8F767 /* 直播间测试gif-48.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-48.tiff"; sourceTree = "<group>"; };
+		500E92DC25D2B6E300F8F767 /* 直播间测试gif-49.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-49.tiff"; sourceTree = "<group>"; };
+		500E92DD25D2B6E300F8F767 /* 直播间测试gif-24.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-24.tiff"; sourceTree = "<group>"; };
+		500E92DE25D2B6E300F8F767 /* 直播间测试gif-1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-1.tiff"; sourceTree = "<group>"; };
+		500E92DF25D2B6E300F8F767 /* 直播间测试gif-32.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-32.tiff"; sourceTree = "<group>"; };
+		500E92E025D2B6E300F8F767 /* 直播间测试gif-45.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-45.tiff"; sourceTree = "<group>"; };
+		500E92E125D2B6E300F8F767 /* 直播间测试gif-12.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-12.tiff"; sourceTree = "<group>"; };
+		500E92E225D2B6E300F8F767 /* 直播间测试gif-28.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-28.tiff"; sourceTree = "<group>"; };
+		500E92E325D2B6E300F8F767 /* 直播间测试gif-35.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-35.tiff"; sourceTree = "<group>"; };
+		500E92E425D2B6E300F8F767 /* 直播间测试gif-6.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-6.tiff"; sourceTree = "<group>"; };
+		500E92E525D2B6E300F8F767 /* 直播间测试gif-23.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-23.tiff"; sourceTree = "<group>"; };
+		500E92E625D2B6E300F8F767 /* 直播间测试gif-19.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-19.tiff"; sourceTree = "<group>"; };
+		500E92E725D2B6E300F8F767 /* 直播间测试gif-39.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-39.tiff"; sourceTree = "<group>"; };
+		500E92E825D2B6E300F8F767 /* 直播间测试gif-15.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-15.tiff"; sourceTree = "<group>"; };
+		500E92E925D2B6E300F8F767 /* 直播间测试gif-42.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-42.tiff"; sourceTree = "<group>"; };
+		500E92EA25D2B6E300F8F767 /* 直播间测试gif-43.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-43.tiff"; sourceTree = "<group>"; };
+		500E92EB25D2B6E300F8F767 /* 直播间测试gif-14.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-14.tiff"; sourceTree = "<group>"; };
+		500E92EC25D2B6E300F8F767 /* 直播间测试gif-38.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-38.tiff"; sourceTree = "<group>"; };
+		500E92ED25D2B6E300F8F767 /* 直播间测试gif-18.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-18.tiff"; sourceTree = "<group>"; };
+		500E92EE25D2B6E300F8F767 /* 直播间测试gif-22.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-22.tiff"; sourceTree = "<group>"; };
+		500E92EF25D2B6E300F8F767 /* 直播间测试gif-7.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-7.tiff"; sourceTree = "<group>"; };
+		500E92F025D2B6E300F8F767 /* 直播间测试gif-34.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "直播间测试gif-34.tiff"; sourceTree = "<group>"; };
+		500E932D25D2C1A900F8F767 /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImage.m; sourceTree = "<group>"; };
+		500E932F25D2C1A900F8F767 /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImage.h; sourceTree = "<group>"; };
+		500E933025D2C1A900F8F767 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
+		500E933125D2C1A900F8F767 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
 		5056864725B04540009DDCBA /* ShowGif.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowGif.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5056864A25B04540009DDCBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5056864B25B04540009DDCBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -287,10 +391,6 @@
 		5056866D25B04543009DDCBA /* ShowGifUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowGifUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5056867125B04543009DDCBA /* ShowGifUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowGifUITests.m; sourceTree = "<group>"; };
 		5056867325B04543009DDCBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5056868325B0469E009DDCBA /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImage.m; sourceTree = "<group>"; };
-		5056868425B0469E009DDCBA /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
-		5056868525B0469E009DDCBA /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImage.h; sourceTree = "<group>"; };
-		5056868625B0469E009DDCBA /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
 		5056869425B047ED009DDCBA /* 直播间测试gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "直播间测试gif.gif"; sourceTree = "<group>"; };
 		505686A825B06F24009DDCBA /* 直播间测试gif_small.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "直播间测试gif_small.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -520,6 +620,82 @@
 			path = Private;
 			sourceTree = "<group>";
 		};
+		500E92BE25D2B6E300F8F767 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				500E92DE25D2B6E300F8F767 /* 直播间测试gif-1.tiff */,
+				500E92CF25D2B6E300F8F767 /* 直播间测试gif-2.tiff */,
+				500E92D225D2B6E300F8F767 /* 直播间测试gif-3.tiff */,
+				500E92C025D2B6E300F8F767 /* 直播间测试gif-4.tiff */,
+				500E92C925D2B6E300F8F767 /* 直播间测试gif-5.tiff */,
+				500E92E425D2B6E300F8F767 /* 直播间测试gif-6.tiff */,
+				500E92EF25D2B6E300F8F767 /* 直播间测试gif-7.tiff */,
+				500E92C425D2B6E300F8F767 /* 直播间测试gif-8.tiff */,
+				500E92C525D2B6E300F8F767 /* 直播间测试gif-9.tiff */,
+				500E92D425D2B6E300F8F767 /* 直播间测试gif-10.tiff */,
+				500E92CC25D2B6E300F8F767 /* 直播间测试gif-11.tiff */,
+				500E92E125D2B6E300F8F767 /* 直播间测试gif-12.tiff */,
+				500E92D725D2B6E300F8F767 /* 直播间测试gif-13.tiff */,
+				500E92EB25D2B6E300F8F767 /* 直播间测试gif-14.tiff */,
+				500E92E825D2B6E300F8F767 /* 直播间测试gif-15.tiff */,
+				500E92C625D2B6E300F8F767 /* 直播间测试gif-16.tiff */,
+				500E92C325D2B6E300F8F767 /* 直播间测试gif-17.tiff */,
+				500E92ED25D2B6E300F8F767 /* 直播间测试gif-18.tiff */,
+				500E92E625D2B6E300F8F767 /* 直播间测试gif-19.tiff */,
+				500E92CA25D2B6E300F8F767 /* 直播间测试gif-20.tiff */,
+				500E92BF25D2B6E300F8F767 /* 直播间测试gif-21.tiff */,
+				500E92EE25D2B6E300F8F767 /* 直播间测试gif-22.tiff */,
+				500E92E525D2B6E300F8F767 /* 直播间测试gif-23.tiff */,
+				500E92DD25D2B6E300F8F767 /* 直播间测试gif-24.tiff */,
+				500E92DA25D2B6E300F8F767 /* 直播间测试gif-25.tiff */,
+				500E92D325D2B6E300F8F767 /* 直播间测试gif-26.tiff */,
+				500E92CE25D2B6E300F8F767 /* 直播间测试gif-27.tiff */,
+				500E92E225D2B6E300F8F767 /* 直播间测试gif-28.tiff */,
+				500E92D625D2B6E300F8F767 /* 直播间测试gif-29.tiff */,
+				500E92D125D2B6E300F8F767 /* 直播间测试gif-30.tiff */,
+				500E92D025D2B6E300F8F767 /* 直播间测试gif-31.tiff */,
+				500E92DF25D2B6E300F8F767 /* 直播间测试gif-32.tiff */,
+				500E92D925D2B6E300F8F767 /* 直播间测试gif-33.tiff */,
+				500E92F025D2B6E300F8F767 /* 直播间测试gif-34.tiff */,
+				500E92E325D2B6E300F8F767 /* 直播间测试gif-35.tiff */,
+				500E92C825D2B6E300F8F767 /* 直播间测试gif-36.tiff */,
+				500E92C125D2B6E300F8F767 /* 直播间测试gif-37.tiff */,
+				500E92EC25D2B6E300F8F767 /* 直播间测试gif-38.tiff */,
+				500E92E725D2B6E300F8F767 /* 直播间测试gif-39.tiff */,
+				500E92C225D2B6E300F8F767 /* 直播间测试gif-40.tiff */,
+				500E92C725D2B6E300F8F767 /* 直播间测试gif-41.tiff */,
+				500E92E925D2B6E300F8F767 /* 直播间测试gif-42.tiff */,
+				500E92EA25D2B6E300F8F767 /* 直播间测试gif-43.tiff */,
+				500E92D825D2B6E300F8F767 /* 直播间测试gif-44.tiff */,
+				500E92E025D2B6E300F8F767 /* 直播间测试gif-45.tiff */,
+				500E92CB25D2B6E300F8F767 /* 直播间测试gif-46.tiff */,
+				500E92D525D2B6E300F8F767 /* 直播间测试gif-47.tiff */,
+				500E92DB25D2B6E300F8F767 /* 直播间测试gif-48.tiff */,
+				500E92DC25D2B6E300F8F767 /* 直播间测试gif-49.tiff */,
+				500E92CD25D2B6E300F8F767 /* 直播间测试gif-50.tiff */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		500E932C25D2C1A900F8F767 /* FLAnimatedImage */ = {
+			isa = PBXGroup;
+			children = (
+				500E932D25D2C1A900F8F767 /* FLAnimatedImage.m */,
+				500E932E25D2C1A900F8F767 /* include */,
+				500E933125D2C1A900F8F767 /* FLAnimatedImageView.m */,
+			);
+			path = FLAnimatedImage;
+			sourceTree = "<group>";
+		};
+		500E932E25D2C1A900F8F767 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				500E932F25D2C1A900F8F767 /* FLAnimatedImage.h */,
+				500E933025D2C1A900F8F767 /* FLAnimatedImageView.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
 		5056863E25B04540009DDCBA = {
 			isa = PBXGroup;
 			children = (
@@ -549,10 +725,11 @@
 				5056865125B04540009DDCBA /* ViewController.m */,
 				505686A825B06F24009DDCBA /* 直播间测试gif_small.gif */,
 				5056869425B047ED009DDCBA /* 直播间测试gif.gif */,
+				500E92BE25D2B6E300F8F767 /* images */,
 				500E904C25D1276A00F8F767 /* loadGif.html */,
+				500E932C25D2C1A900F8F767 /* FLAnimatedImage */,
 				500E917525D22B4F00F8F767 /* SDWebImage */,
 				500E915A25D1491800F8F767 /* YYImage */,
-				5056868225B0469E009DDCBA /* FLAnimatedImage */,
 				5056865325B04540009DDCBA /* Main.storyboard */,
 				5056865625B04542009DDCBA /* Assets.xcassets */,
 				5056865825B04542009DDCBA /* LaunchScreen.storyboard */,
@@ -578,17 +755,6 @@
 				5056867325B04543009DDCBA /* Info.plist */,
 			);
 			path = ShowGifUITests;
-			sourceTree = "<group>";
-		};
-		5056868225B0469E009DDCBA /* FLAnimatedImage */ = {
-			isa = PBXGroup;
-			children = (
-				5056868525B0469E009DDCBA /* FLAnimatedImage.h */,
-				5056868325B0469E009DDCBA /* FLAnimatedImage.m */,
-				5056868625B0469E009DDCBA /* FLAnimatedImageView.h */,
-				5056868425B0469E009DDCBA /* FLAnimatedImageView.m */,
-			);
-			path = FLAnimatedImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -693,14 +859,64 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				500E932225D2B6E300F8F767 /* 直播间测试gif-34.tiff in Resources */,
+				500E92FF25D2B6E300F8F767 /* 直播间测试gif-50.tiff in Resources */,
 				5056865A25B04542009DDCBA /* LaunchScreen.storyboard in Resources */,
+				500E931925D2B6E300F8F767 /* 直播间测试gif-39.tiff in Resources */,
+				500E92FC25D2B6E300F8F767 /* 直播间测试gif-20.tiff in Resources */,
+				500E930A25D2B6E300F8F767 /* 直播间测试gif-44.tiff in Resources */,
+				500E92F325D2B6E300F8F767 /* 直播间测试gif-37.tiff in Resources */,
+				500E931F25D2B6E300F8F767 /* 直播间测试gif-18.tiff in Resources */,
 				5056865725B04542009DDCBA /* Assets.xcassets in Resources */,
+				500E931625D2B6E300F8F767 /* 直播间测试gif-6.tiff in Resources */,
+				500E92F525D2B6E300F8F767 /* 直播间测试gif-17.tiff in Resources */,
+				500E92FB25D2B6E300F8F767 /* 直播间测试gif-5.tiff in Resources */,
 				505686A925B06F25009DDCBA /* 直播间测试gif_small.gif in Resources */,
 				500E920A25D22B5000F8F767 /* LICENSE in Resources */,
+				500E931125D2B6E300F8F767 /* 直播间测试gif-32.tiff in Resources */,
+				500E930E25D2B6E300F8F767 /* 直播间测试gif-49.tiff in Resources */,
+				500E931D25D2B6E300F8F767 /* 直播间测试gif-14.tiff in Resources */,
+				500E931725D2B6E300F8F767 /* 直播间测试gif-23.tiff in Resources */,
+				500E92F825D2B6E300F8F767 /* 直播间测试gif-16.tiff in Resources */,
+				500E930825D2B6E300F8F767 /* 直播间测试gif-29.tiff in Resources */,
+				500E932025D2B6E300F8F767 /* 直播间测试gif-22.tiff in Resources */,
+				500E930F25D2B6E300F8F767 /* 直播间测试gif-24.tiff in Resources */,
 				5056865525B04540009DDCBA /* Main.storyboard in Resources */,
+				500E931B25D2B6E300F8F767 /* 直播间测试gif-42.tiff in Resources */,
+				500E931525D2B6E300F8F767 /* 直播间测试gif-35.tiff in Resources */,
 				5056869525B047EE009DDCBA /* 直播间测试gif.gif in Resources */,
+				500E931A25D2B6E300F8F767 /* 直播间测试gif-15.tiff in Resources */,
+				500E92FE25D2B6E300F8F767 /* 直播间测试gif-11.tiff in Resources */,
+				500E92F725D2B6E300F8F767 /* 直播间测试gif-9.tiff in Resources */,
+				500E92F925D2B6E300F8F767 /* 直播间测试gif-41.tiff in Resources */,
+				500E92F425D2B6E300F8F767 /* 直播间测试gif-40.tiff in Resources */,
+				500E930625D2B6E300F8F767 /* 直播间测试gif-10.tiff in Resources */,
+				500E931825D2B6E300F8F767 /* 直播间测试gif-19.tiff in Resources */,
+				500E930025D2B6E300F8F767 /* 直播间测试gif-27.tiff in Resources */,
+				500E930925D2B6E300F8F767 /* 直播间测试gif-13.tiff in Resources */,
+				500E930B25D2B6E300F8F767 /* 直播间测试gif-33.tiff in Resources */,
+				500E930425D2B6E300F8F767 /* 直播间测试gif-3.tiff in Resources */,
 				500E920B25D22B5000F8F767 /* README.md in Resources */,
+				500E92F125D2B6E300F8F767 /* 直播间测试gif-21.tiff in Resources */,
+				500E931225D2B6E300F8F767 /* 直播间测试gif-45.tiff in Resources */,
+				500E930D25D2B6E300F8F767 /* 直播间测试gif-48.tiff in Resources */,
+				500E92F225D2B6E300F8F767 /* 直播间测试gif-4.tiff in Resources */,
+				500E92F625D2B6E300F8F767 /* 直播间测试gif-8.tiff in Resources */,
+				500E92FA25D2B6E300F8F767 /* 直播间测试gif-36.tiff in Resources */,
+				500E931425D2B6E300F8F767 /* 直播间测试gif-28.tiff in Resources */,
+				500E932125D2B6E300F8F767 /* 直播间测试gif-7.tiff in Resources */,
+				500E930125D2B6E300F8F767 /* 直播间测试gif-2.tiff in Resources */,
+				500E931C25D2B6E300F8F767 /* 直播间测试gif-43.tiff in Resources */,
+				500E930225D2B6E300F8F767 /* 直播间测试gif-31.tiff in Resources */,
+				500E930525D2B6E300F8F767 /* 直播间测试gif-26.tiff in Resources */,
+				500E930725D2B6E300F8F767 /* 直播间测试gif-47.tiff in Resources */,
+				500E931325D2B6E300F8F767 /* 直播间测试gif-12.tiff in Resources */,
+				500E92FD25D2B6E300F8F767 /* 直播间测试gif-46.tiff in Resources */,
+				500E930325D2B6E300F8F767 /* 直播间测试gif-30.tiff in Resources */,
+				500E930C25D2B6E300F8F767 /* 直播间测试gif-25.tiff in Resources */,
 				500E904D25D1276A00F8F767 /* loadGif.html in Resources */,
+				500E931E25D2B6E300F8F767 /* 直播间测试gif-38.tiff in Resources */,
+				500E931025D2B6E300F8F767 /* 直播间测试gif-1.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -758,7 +974,6 @@
 				5056864C25B04540009DDCBA /* AppDelegate.m in Sources */,
 				500E921025D22B5000F8F767 /* SDWebImageOperation.m in Sources */,
 				500E922025D22B5000F8F767 /* UIImage+GIF.m in Sources */,
-				5056868725B0469E009DDCBA /* FLAnimatedImage.m in Sources */,
 				500E924B25D22B5000F8F767 /* SDInternalMacros.m in Sources */,
 				500E916825D1491800F8F767 /* YYFrameImage.m in Sources */,
 				500E924425D22B5000F8F767 /* UIButton+WebCache.m in Sources */,
@@ -774,7 +989,6 @@
 				500E923C25D22B5000F8F767 /* UIImage+MemoryCacheCost.m in Sources */,
 				500E922B25D22B5000F8F767 /* SDImageIOCoder.m in Sources */,
 				500E922E25D22B5000F8F767 /* UIImage+ExtendedCacheData.m in Sources */,
-				5056868825B0469E009DDCBA /* FLAnimatedImageView.m in Sources */,
 				500E923425D22B5000F8F767 /* SDImageLoadersManager.m in Sources */,
 				500E921125D22B5000F8F767 /* SDWebImageDownloaderDecryptor.m in Sources */,
 				500E921D25D22B5000F8F767 /* SDWebImageCacheSerializer.m in Sources */,
@@ -794,6 +1008,7 @@
 				500E921E25D22B5000F8F767 /* SDWebImageIndicator.m in Sources */,
 				500E923525D22B5000F8F767 /* SDImageCachesManager.m in Sources */,
 				500E924525D22B5000F8F767 /* SDWebImageDownloaderRequestModifier.m in Sources */,
+				500E933325D2C1A900F8F767 /* FLAnimatedImageView.m in Sources */,
 				500E921F25D22B5000F8F767 /* SDGraphicsImageRenderer.m in Sources */,
 				500E916925D1491800F8F767 /* YYAnimatedImageView.m in Sources */,
 				500E923D25D22B5000F8F767 /* SDImageCacheConfig.m in Sources */,
@@ -801,6 +1016,7 @@
 				500E924125D22B5000F8F767 /* UIView+WebCacheOperation.m in Sources */,
 				500E921C25D22B5000F8F767 /* SDImageLoader.m in Sources */,
 				500E923025D22B5000F8F767 /* SDImageCache.m in Sources */,
+				500E933225D2C1A900F8F767 /* FLAnimatedImage.m in Sources */,
 				500E924F25D22B5000F8F767 /* SDAsyncBlockOperation.m in Sources */,
 				500E924A25D22B5000F8F767 /* SDWeakProxy.m in Sources */,
 				500E920D25D22B5000F8F767 /* NSImage+Compatibility.m in Sources */,
