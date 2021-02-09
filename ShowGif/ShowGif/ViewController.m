@@ -7,7 +7,6 @@
 
 #import "ViewController.h"
 #import "FLAnimatedImage.h"
-#import "FLAnimatedImageView.h"
 #import <WebKit/WebKit.h>
 #import "YYImage.h"
 #import "UIImage+GIF.h"
@@ -96,19 +95,14 @@
 
     wkWebView.UIDelegate = self;
     wkWebView.navigationDelegate = self;
+    // 禁止上下滚动
     wkWebView.scrollView.scrollEnabled = NO;
+    // 禁止双指放大缩小
+    wkWebView.scrollView.userInteractionEnabled = NO;
     wkWebView.scrollView.bouncesZoom = YES;
     [wkWebView loadHTMLString:htmlStr baseURL:nil];
     [self.view addSubview:wkWebView];
 
-}
-// 加载完毕
-- (void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation {
-    NSString *injectionJSString = @"var script = document.createElement('meta');"
-    "script.name = 'viewport';"
-    "script.content=\"width=device-width, user-scalable=no\";"
-    "document.getElementsByTagName('head')[0].appendChild(script);";
-    [webView evaluateJavaScript:injectionJSString completionHandler:nil];
 }
 
 
