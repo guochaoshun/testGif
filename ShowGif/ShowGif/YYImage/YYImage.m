@@ -50,6 +50,7 @@ static NSArray *_NSBundlePreferredScales() {
  */
 static NSString *_NSStringByAppendingNameScale(NSString *string, CGFloat scale) {
     if (!string) return nil;
+    // __FLT_EPSILON__是1.19209290E-07F, 可以认为是趋向于0对比,当传入1时,直接返回string的原值
     if (fabs(scale - 1) <= __FLT_EPSILON__ || string.length == 0 || [string hasSuffix:@"/"]) return string.copy;
     return [string stringByAppendingFormat:@"@%@x", @(scale)];
 }

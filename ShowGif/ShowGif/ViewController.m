@@ -10,6 +10,7 @@
 #import <WebKit/WebKit.h>
 #import "YYImage.h"
 #import "UIImage+GIF.h"
+#import "UIImageView+WebCache.h"
 
 
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
@@ -62,6 +63,7 @@
     //        self.displayLink.preferredFramesPerSecond = 1;
     // 设置小于5帧的情况下CPU下降明显,但是卡顿也明显
     //        self.displayLink.preferredFramesPerSecond = 15; // 60,30,20,15帧CPU下降不明显,
+    NSLog(@"FLAnimatedImageView加载image");
 
 }
 
@@ -75,6 +77,7 @@
     webView.userInteractionEnabled = NO;//用户不可交互
     [webView loadData:data MIMEType:@"image/gif" textEncodingName:nil baseURL:nil];
     [self.view addSubview:webView];
+    NSLog(@"UIWebView加载image");
 
 }
 
@@ -102,6 +105,7 @@
     wkWebView.scrollView.bouncesZoom = YES;
     [wkWebView loadHTMLString:htmlStr baseURL:nil];
     [self.view addSubview:wkWebView];
+    NSLog(@"wkWebView加载image");
 
 }
 
@@ -110,25 +114,41 @@
 
 #pragma mark YYImage加载
 - (void)testGifImage4 {
-    NSString * path = [[NSBundle mainBundle] pathForResource:@"直播间测试gif" ofType:@"gif"];
-    NSData * data = [NSData dataWithContentsOfFile:path];
 
-    YYAnimatedImageView *image = [[YYAnimatedImageView alloc] initWithFrame:self.view.frame];
-    image.image = [YYImage imageWithData:data];
-//    image.image = [YYImage imageNamed:@"直播间测试gif.gif"];
-    [self.view addSubview:image];
+    YYAnimatedImageView *imageView = [[YYAnimatedImageView alloc] initWithFrame:self.view.frame];
+
+    // 网络图
+    NSURL *url = [NSURL URLWithString:@"http://res.hongrenshuo.com.cn/66532a15-c726-4edf-bb4f-0b8897753f31.gif?t=1606124887942"];
+    [imageView sd_setImageWithURL:url];
+
+    // 本地图
+//    NSString * path = [[NSBundle mainBundle] pathForResource:@"直播间测试gif" ofType:@"gif"];
+//    NSData * data = [NSData dataWithContentsOfFile:path];
+//    imageView.image = [YYImage imageWithData:data];
+
+    // 本地图名字
+//    imageView.image = [YYImage imageNamed:@"直播间测试gif.gif"];
+    [self.view addSubview:imageView];
+    NSLog(@"YYImage加载");
 
 }
 
 #pragma mark SD加载image
 - (void)testGifImage5 {
-    NSString * path = [[NSBundle mainBundle] pathForResource:@"直播间测试gif" ofType:@"gif"];
-    NSData * data = [NSData dataWithContentsOfFile:path];
 
-    UIImage *image = [UIImage sd_imageWithGIFData:data];
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:self.view.frame];
-    imageView.image = image;
+
+    // 网络图
+    NSURL *url = [NSURL URLWithString:@"http://res.hongrenshuo.com.cn/66532a15-c726-4edf-bb4f-0b8897753f31.gif?t=1606124887942"];
+    [imageView sd_setImageWithURL:url];
+
+    // 本地图
+    //    NSString * path = [[NSBundle mainBundle] pathForResource:@"直播间测试gif" ofType:@"gif"];
+    //    NSData * data = [NSData dataWithContentsOfFile:path];
+    //    UIImage *image = [UIImage sd_imageWithGIFData:data];
+//    imageView.image = image;
     [self.view addSubview:imageView];
+    NSLog(@"SD加载image");
 
 }
 

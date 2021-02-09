@@ -14,8 +14,8 @@
             filePath = "ShowGif/ViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
             landmarkName = "-testGifImage3"
             landmarkType = "7">
          </BreakpointContent>
@@ -23,17 +23,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "545686B0-D85B-4A3A-80A8-9B82C7F1D45F"
-            shouldBeEnabled = "Yes"
+            uuid = "C07C3533-73E3-43AC-BE80-4B8FB50B19BA"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShowGif/ViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "ViewController()"
-            landmarkType = "2">
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "-testGifImage5"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

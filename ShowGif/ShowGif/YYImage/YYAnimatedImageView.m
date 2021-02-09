@@ -345,16 +345,22 @@ typedef NS_ENUM(NSUInteger, YYAnimatedImageType) {
     NSUInteger newImageFrameCount = 0;
     BOOL hasContentsRect = NO;
     if ([newVisibleImage isKindOfClass:[UIImage class]] &&
+        //这句话其实就是把newVisibleImage当做代理对象使用
+        //因为这里用的都是YYImage类型，YYImage已经实现了<YYAnimatedImage>代理方法
         [newVisibleImage conformsToProtocol:@protocol(YYAnimatedImage)]) {
+        //得到图片的个数
         newImageFrameCount = ((UIImage<YYAnimatedImage> *) newVisibleImage).animatedImageFrameCount;
         if (newImageFrameCount > 1) {
             hasContentsRect = [((UIImage<YYAnimatedImage> *) newVisibleImage) respondsToSelector:@selector(animatedImageContentsRectAtIndex:)];
         }
     }
     if (!hasContentsRect && _curImageHasContentsRect) {
+        //这个是关闭默认的隐式动画，防止对自己的动画播放产生影响，
+        //有兴趣的可以看看 core animation
         if (!CGRectEqualToRect(self.layer.contentsRect, CGRectMake(0, 0, 1, 1)) ) {
             [CATransaction begin];
             [CATransaction setDisableActions:YES];
+            //设置layer的显示范围是整个寄宿图片
             self.layer.contentsRect = CGRectMake(0, 0, 1, 1);
             [CATransaction commit];
         }
@@ -364,8 +370,10 @@ typedef NS_ENUM(NSUInteger, YYAnimatedImageType) {
         CGRect rect = [((UIImage<YYAnimatedImage> *) newVisibleImage) animatedImageContentsRectAtIndex:0];
         [self setContentsRect:rect forImage:newVisibleImage];
     }
-    
+
     if (newImageFrameCount > 1) {
+        //如果是 图片数量>1 针对动态图
+        //resetAnimated就是创建了一个CADisplayLink定时器去刷新图片显示
         [self resetAnimated];
         _curAnimatedImage = newVisibleImage;
         _curFrame = newVisibleImage;
@@ -374,6 +382,7 @@ typedef NS_ENUM(NSUInteger, YYAnimatedImageType) {
         [self calcMaxBufferCount];
     }
     [self setNeedsDisplay];
+    //开始播放动画
     [self didMoved];
 }
 
